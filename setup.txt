@@ -1,0 +1,9 @@
+How to install FastAPI
+- Create a new virtual environment for the project (Windows)
+    - $ pip install virtualenv (install virtualenv module)
+    - $ virtualenv venv (create a new venv)
+    - $ venv/Scripts/activate (to activate)  
+- Install the fastapi - $ pip install fastapi
+- To install uvicorn $ pip install uvicorn[standard] 
+- Now let's write a hello world code
+- To run the app by using this $ uvicorn main:app
